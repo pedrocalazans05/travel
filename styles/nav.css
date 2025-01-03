@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.logo {
+    width: auto;
+    height: 75px;
+}
