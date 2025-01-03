@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    font: var(--text-md);
 
     .container-perfil{
         display: flex;
@@ -29,10 +30,6 @@
                 color: var(--text-color-primary);
                 margin-bottom: 8px;
             }
-        
-            p{
-                font: var(--text-md);
-            }
         }
     }
 }
@@ -46,11 +43,11 @@
 
     li{
         display: flex;
-        gap: 8px;
+        gap: 16px;
         align-items: center;
     }
     
     li>img {
-        width: 32px;    
+        width: 20px;    
     }
 }
