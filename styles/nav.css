@@ -3,29 +3,29 @@ nav {
     justify-content: space-between;
     align-items: center;
     line-height: 0;
-}
 
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 24px;
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        
+        padding-block: 8px;  
+    }
+
+    .logo {
+        width: auto;
+        height: 75px;
+    }
     
-    padding-block: 8px;  
-}
-
-.logo {
-    width: auto;
-    height: 75px;
-}
-
-.perfil-sm {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+    .perfil-sm {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+    }
 }

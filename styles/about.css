@@ -1,0 +1,56 @@
+.section-perfil{
+    padding-block: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+    .container-perfil{
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    
+        .profile img {
+            width: 176px;
+            height: 176px;
+            object-fit: cover;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+        }
+        
+        .sobre {
+            max-width: 384px;
+        
+            h1{
+                font: var(--text-lg);
+                color: var(--text-color-primary);
+                margin-bottom: 8px;
+            }
+        
+            p{
+                font: var(--text-md);
+            }
+        }
+    }
+}
+
+.info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+
+    li{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    li>img {
+        width: 32px;    
+    }
+}
